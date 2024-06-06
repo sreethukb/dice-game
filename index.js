@@ -3,11 +3,11 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 document.querySelector(".dice .img1").setAttribute("src", "./images/dice"+randomNumber1+".png");
 document.querySelector(".dice .img2").setAttribute("src", "./images/dice"+randomNumber2+".png");
 if (randomNumber1 > randomNumber2) {
-    document.querySelector(".container h1").textContent = "Player 1 wins 🚩";
+    document.querySelector("h1").innerHTML = "Player 1 wins 🚩";
 }
 else if(randomNumber1 < randomNumber2){
-    document.querySelector(".container h1").textContent = "Player 2 wins 🚩";
+    document.querySelector("h1").innerHTML = "Player 2 wins 🚩";
 }
 else{
-    document.querySelector(".container h1").textContent = "That's a draw! Try again ✨";
+    document.querySelector("h1").innerHTML = "That's a draw! Try again ✨";
 }
