@@ -1,0 +1,48 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #B5C18E;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 6rem;
+  text-shadow: 5px 0 #C7B7A3;
+  color: #EADBC8;
+}
+
+p {
+  font-size: 2rem;
+  color: #EADBC8;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 20px;
+}
+
+.dice img {
+  width: 80%;
+}
+
+.footer {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  color: #EADBC8;
+  font-family: "Fredoka", sans-serif;
+  font-size: 30px;
+  font-weight: 20px;
+}
+
+
